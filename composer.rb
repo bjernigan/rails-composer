@@ -181,6 +181,7 @@ end
 
 # this application template only supports Rails version 3.1 and newer
 case Rails::VERSION::MAJOR.to_s
+when "4"
 when "3"
   case Rails::VERSION::MINOR.to_s
   when "0"
